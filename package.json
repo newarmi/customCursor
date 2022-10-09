@@ -2,8 +2,10 @@
   "name": "customcursor",
   "version": "0.0.1",
   "description": "custom cursor for you website",
-  "main": "src/index.js",
-  "scripts": {},
+  "main": "src/index.ts",
+  "scripts": {
+    "watch": "webpack --mode development --watch"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/newarmi/customCursor.git"
@@ -20,9 +22,16 @@
   },
   "homepage": "https://github.com/newarmi/customCursor#readme",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
     "clean-webpack-plugin": "^4.0.0",
+    "eslint": "^8.25.0",
     "html-webpack-plugin": "^5.5.0",
+    "prettier": "^2.7.1",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.8.4",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0"
-  }
+  },
+  "dependencies": {}
 }
