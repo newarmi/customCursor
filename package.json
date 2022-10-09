@@ -1,0 +1,29 @@
+{
+  "name": "customcursor",
+  "version": "0.0.1",
+  "description": "custom cursor for you website",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newarmi/customCursor.git"
+  },
+  "keywords": [
+    "cursor",
+    "custom",
+    "makeCustomCursor"
+  ],
+  "author": "Timur Solovev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/newarmi/customCursor/issues"
+  },
+  "homepage": "https://github.com/newarmi/customCursor#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
