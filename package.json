@@ -3,9 +3,7 @@
   "version": "0.0.1",
   "description": "custom cursor for you website",
   "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/newarmi/customCursor.git"
@@ -21,8 +19,9 @@
     "url": "https://github.com/newarmi/customCursor/issues"
   },
   "homepage": "https://github.com/newarmi/customCursor#readme",
-  "dependencies": {},
   "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0"
   }
